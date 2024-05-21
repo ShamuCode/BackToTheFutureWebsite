@@ -1,0 +1,74 @@
+
+    body{
+        background-color: black;
+    }
+    head {
+        color: white;
+    }
+
+    h1 {
+        color: white;
+        text-align: center;
+        /*background-color: red;*/
+        font-family: 'Montserrat Thin';
+        font-size: 50px;
+    }
+
+    p {
+        color: white;
+        font-family: "Montserrat";
+        font-size: 100 px;
+        background-color: black;
+        text-align: center;
+    }
+
+    .ta {
+        text-align: right;
+    }
+
+    .at {
+        align-items: left;
+    }
+
+    .test {
+        color: white;
+        text-align: center;
+        /*background-color: red;*/
+        font-family: 'Comic Sans MS';
+        font-size: 50px;
+        align-items: center;
+    }
+    
+    h2 {
+        color: white;
+        font-family: 'Comic Sans MS';
+        font-size: 20px;
+    }
+
+
+
+    .main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section {
+        width: 50%;
+        height: 100%;
+    }
+
+    button {
+  padding      : 10px 10px;
+  font-size    : 1.5rem;
+  cursor       : default;
+  border       : 0px;
+  background   : transparent;
+  position     : relative;
+  transition   : all .2s;
+  overflow     : hidden;
+  color        : #fff;
+  border-radius: 100px;
+  background-color: orange;
+  box-shadow   : 0px -0px 0px 0px rgba(143, 64, 248, .5), 0px 0px 0px 0px rgba(39, 200, 255, .5);
+}
